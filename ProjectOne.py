@@ -58,3 +58,5 @@ if 'response' in locals():
     print(f"Prompt Tokens: {usage.prompt_tokens}")
     print(f"Completion Tokens: {usage.completion_tokens}")
     print(f"Total Tokens: {usage.total_tokens}")
+
+print("End of Service")
